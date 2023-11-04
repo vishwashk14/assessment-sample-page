@@ -1,0 +1,301 @@
+:root {
+  --midblack: #313237;
+  --lightGray: #b8b8b8;
+  --midgray: #939393;
+  --blue: #032868;
+  --danger: #bf0a30;
+  --red: #bf0a30;
+  /* gradients  */
+  --gradientHeading: linear-gradient(180deg, #bc0b31 0%, #0d2766 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common style */
+button {
+  border: 1px solid !important;
+  border-radius: 50px !important;
+}
+
+body {
+  /* background: red; */
+}
+
+/* custom classes */
+.w-fit {
+  width: fit-content !important;
+}
+
+.h-fit {
+  height: fit-content !important;
+}
+
+.h-screen {
+  height: 100vh !important;
+}
+
+/* ---- Color Class ---- */
+.bg-blue {
+  background: var(--blue) !important;
+}
+
+.bg-danger {
+  background-color: var(--danger);
+}
+.bg-red {
+  background-color: var(--red);
+}
+
+.text-blue {
+  color: var(--blue) !important;
+}
+
+.text-lightGray {
+  color: var(--lightGray);
+}
+.text-midGray {
+  color: var(--midgray);
+}
+
+.text-midblack {
+  color: var(--midblack);
+}
+
+.text-gradient {
+  background: var(--gradientHeading);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/* font weight classes */
+.fw-medium {
+  font-weight: 500 !important;
+}
+.fw-semibold {
+  font-weight: 600;
+}
+
+/*  Img & Text Section */
+
+.curve-img-bar {
+  width: 65px !important;
+  height: 8px !important;
+  background: #fff;
+}
+
+.overlay-card {
+  background: #bf0a30;
+  border-radius: 20px;
+  padding: 6.375rem 2.125rem 1rem !important;
+  height: auto;
+  width: auto;
+  position: absolute;
+  bottom: 4vw;
+  right: 8vw;
+}
+
+.img-overlay-text {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 20vw;
+}
+
+/* custom font size classes */
+.fs-7 {
+  font-size: 12px !important;
+  line-height: normal;
+}
+
+.fs-8 {
+  font-size: 8px !important;
+  line-height: normal;
+}
+
+.fs-20 {
+  font-size: 40px !important;
+  line-height: normal;
+}
+
+.fs-38px {
+  font-size: 38px !important;
+}
+
+.fs-23px {
+  font-size: 23px;
+}
+
+.fs-14px {
+  font-size: 14px !important;
+}
+
+.fs-15px {
+  font-size: 15px !important;
+}
+
+.fs-17px {
+  font-size: 17px !important;
+  line-height: 170%;
+}
+
+/* margin classes */
+
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+.my-6 {
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}
+
+/* padding classes */
+
+.pe-7 {
+  padding-right: 4.938rem !important;
+}
+
+.fs-imgNtext-aboutus {
+  font-size: 22px;
+  line-height: 150%;
+  font-weight: 500;
+}
+/* Card Section Styling */
+.card-shadow {
+  box-shadow: 0px 4px 32px 12px rgba(132, 132, 132, 0.12) !important;
+}
+
+.bg-card-shadow {
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.rounded-card {
+  border-radius: 1.063rem !important;
+}
+
+/* Card Section Styling */
+.card-section {
+  left: -1rem !important;
+}
+
+.card-bg-img {
+  border-radius: 1.875rem;
+  width: 92.7% !important;
+}
+
+@media (min-width: 1536px) {
+  .card-bg-img {
+    width: auto !important;
+  }
+}
+
+.card-cotainer {
+  bottom: -12.5rem !important;
+}
+
+.cards {
+  width: 255px;
+  height: 295px;
+}
+
+/* ------ Custom Typograpy ---- */
+.rights-text {
+  line-height: 187.5%;
+  letter-spacing: -0.32px;
+}
+
+.gradient-border {
+  border-width: 4px;
+  border-style: solid;
+  border-image: var(--gradientHeading) 1;
+}
+
+/* mavbar styling */
+.nav-logo-bg {
+  display: block;
+}
+
+@media (min-width: 1536px) {
+  .nav-logo-bg {
+    display: none;
+  }
+}
+
+.hover-menu {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hover-menu:hover {
+  color: var(--red);
+}
+
+/* hero Section styling */
+
+.hero-bg {
+  width: 100%;
+  padding-bottom: 10rem;
+  object-fit: cover;
+  background-size: cover;
+}
+
+/* Hero Cards */
+.hero-cards {
+  bottom: -3rem;
+  left: 55.8%;
+  transform: translate(-50%, 0%);
+}
+
+.hero-card {
+  border-radius: 20px;
+  box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.07);
+}
+
+/* ---- hero Content ---- */
+.heroText {
+  position: relative;
+  left: -0.5rem;
+}
+
+@media (min-width: 1536px) {
+  .heroText {
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.heroText a {
+  border: 2px solid var(--blue);
+  border-radius: 50px !important;
+  position: relative;
+  font-size: 14px;
+}
+
+.heroText p {
+  width: 28vw;
+}
+
+/* hero Image & Card */
+.hero-card button {
+  border: 2px solid;
+  border-radius: 50px !important;
+  position: relative;
+}

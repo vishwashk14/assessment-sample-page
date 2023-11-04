@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Poppin CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>The Kaufman | The Law Firm</title>
+</head>
+
+<body>
+
+    <!-- navbar start here -->
+    <nav class="position-relative ">
+        <div class="bg-blue position-absolute w-25 h-100 z-1 start-0 top-0 nav-logo-bg"></div>
+
+        <div class="d-flex container-fluid pe-7  z-3 position-relative p-0 ">
+
+            <!-- logo -->
+            <div class="bg_blue bg-blue px-5 py-4 w-fit h-fit">
+                <img src="/assets/logos/logo.svg" alt="logo" class="w-fit h-fit" />
+
+            </div>
+
+
+            <!-- contact Details and nav menu with src & btn   -->
+
+            <div class="w-100">
+                <div class="d-flex justify-content-between align-items-center w-100 ps-5 py-2">
+                    <!-- location -->
+                    <div class="d-flex gap-2 align-items-center justify-content-center ">
+                        <!-- icons -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="22" viewBox="0 0 15 22" fill="none">
+                            <path
+                                d="M7.45 0C3.33121 0 0 3.33121 0 7.45C0 13.0375 7.45 21.2857 7.45 21.2857C7.45 21.2857 14.9 13.0375 14.9 7.45C14.9 3.33121 11.5688 0 7.45 0ZM2.12857 7.45C2.12857 4.51257 4.51257 2.12857 7.45 2.12857C10.3874 2.12857 12.7714 4.51257 12.7714 7.45C12.7714 10.5151 9.70628 15.1022 7.45 17.9651C5.23629 15.1235 2.12857 10.4832 2.12857 7.45Z"
+                                fill="#032868" />
+                            <path
+                                d="M7.45014 10.1105C8.91961 10.1105 10.1109 8.91925 10.1109 7.44978C10.1109 5.9803 8.91961 4.78906 7.45014 4.78906C5.98067 4.78906 4.78943 5.9803 4.78943 7.44978C4.78943 8.91925 5.98067 10.1105 7.45014 10.1105Z"
+                                fill="#032868" />
+                        </svg>
+
+                        <p class="mb-0 text-lightGray fs-7">4590 Thousand Oaks Blvd #100Westlake Village, CA 91362</p>
+                    </div>
+
+                    <!-- Contact Details -->
+                    <div class="d-flex gap-4">
+                        <!-- phone -->
+                        <div class="d-flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
+                                fill="none">
+                                <circle cx="23.5" cy="23.5" r="23.5" fill="#F2F2F2" />
+                                <path
+                                    d="M31.95 32C29.8 32 27.7043 31.5207 25.663 30.562C23.621 29.604 21.8127 28.3373 20.238 26.762C18.6627 25.1873 17.396 23.379 16.438 21.337C15.4793 19.2957 15 17.2 15 15.05C15 14.75 15.1 14.5 15.3 14.3C15.5 14.1 15.75 14 16.05 14H20.1C20.3333 14 20.5417 14.075 20.725 14.225C20.9083 14.375 21.0167 14.5667 21.05 14.8L21.7 18.3C21.7333 18.5333 21.7293 18.7457 21.688 18.937C21.646 19.129 21.55 19.3 21.4 19.45L19 21.9C19.7 23.1 20.575 24.225 21.625 25.275C22.675 26.325 23.8333 27.2333 25.1 28L27.45 25.65C27.6 25.5 27.796 25.3873 28.038 25.312C28.2793 25.2373 28.5167 25.2167 28.75 25.25L32.2 25.95C32.4333 26 32.625 26.1123 32.775 26.287C32.925 26.4623 33 26.6667 33 26.9V30.95C33 31.25 32.9 31.5 32.7 31.7C32.5 31.9 32.25 32 31.95 32Z"
+                                    fill="#032868" />
+                            </svg>
+                            <div class="flex flex-column gap-1">
+                                <p class="mb-0 text-lightGray fs-7">Los Angeles</p>
+                                <p class="mb-0 fw-semibold fs-15px">310-981-3404</p>
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div class="d-flex gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47"
+                                fill="none">
+                                <circle cx="23.5" cy="23.5" r="23.5" fill="#F2F2F2" />
+                                <path
+                                    d="M34.2191 15.2661L27.7191 32.0578C27.6548 32.2241 27.5504 32.372 27.4153 32.4883C27.2801 32.6046 27.1184 32.6857 26.9443 32.7245C26.7703 32.7633 26.5894 32.7586 26.4176 32.7107C26.2459 32.6628 26.0886 32.5732 25.9598 32.4499L22.2959 28.9454L20.0491 31.1911C19.9733 31.2667 19.8768 31.3181 19.7718 31.3389C19.6667 31.3596 19.5579 31.3488 19.459 31.3078C19.3602 31.2668 19.2757 31.1974 19.2162 31.1083C19.1568 31.0193 19.125 30.9147 19.125 30.8076V25.912L13.5014 20.5333C13.3619 20.3998 13.2606 20.2314 13.208 20.0456C13.1554 19.8598 13.1534 19.6634 13.2022 19.4765C13.251 19.2897 13.3489 19.1193 13.4857 18.983C13.6225 18.8468 13.7933 18.7495 13.9803 18.7014L32.9386 13.8264C33.1313 13.777 33.3339 13.7817 33.5242 13.8398C33.7145 13.898 33.8851 14.0075 34.0172 14.1562C34.1494 14.3049 34.238 14.4872 34.2735 14.683C34.3089 14.8788 34.2897 15.0805 34.218 15.2661H34.2191ZM31.5833 16.5011L19.7013 24.248L21.5809 26.0464L31.5833 16.5011Z"
+                                    fill="#032868" />
+                            </svg>
+                            <div class="flex flex-column gap-1">
+                                <p class="mb-0 text-lightGray fs-7">Westlake Village</p>
+                                <p class="mb-0 fw-semibold fs-15px ">818-990-1999</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center w-100 ps-5 py-2">
+                    <!-- menu  -->
+                    <div class="nav gap-5 ">
+                        <a class="fw-semibold fs-6 hover-menu">Attorney Profile</a>
+                        <a class="fw-semibold fs-6 hover-menu">Practice Areas</a>
+                        <a class="fw-semibold fs-6 hover-menu">Results</a>
+                        <a class="fw-semibold fs-6 hover-menu">Articles</a>
+                        <a class="fw-semibold fs-6 hover-menu">Contact</a>
+                    </div>
+
+
+                    <!-- src & button -->
+                    <div class="d-flex align-items-center  gap-3">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z"
+                                stroke="#032868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.9999 18.9999L14.6499 14.6499" stroke="#032868" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+
+                        <button class="btn bg-blue text-white w-fit px-4 py-2 px-4 fw-medium  fs-14px"> Let's Talk
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    </nav>
+    <!-- navbar End Here -->
+
+
+    <!-- Hero Section start here -->
+    <section class="hero-bg position-relative " style="background-image: url('/assets/images/hero-bg.png');">
+
+        <!-- hero main div -->
+        <div
+            class="d-flex position-relative container-fluid  p-0 justify-content-end gap-5 accordion-body  align-items-center  ">
+            <!-- hero content Start Here -->
+
+            <div class="heroText mt-6">
+                <h1 class="fw-bold fs-20 text-white">PROTECTING THE RIGHTS<br>
+                    OF EMPLOYEES THROUGHOUT<br>
+                    THE LOS ANGELES AREA</h1>
+
+                <p class="text-white mb-4 fw-medium fs-17px mt-4 mb-5 ">Successfully representing employees in the areas
+                    of Family
+                    Medical Leave, Disability
+                    Discrimination, Wrongful Termination and Wage & Commissions disputes for more than 25 years</p>
+
+
+
+                <a class="btn text-white bg-blue d-flex w-fit align-items-center gap-2 py-2 px-4 fw-medium mt-4"
+                    href="#" role="button">Contact Us For A Consultation accordion
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <circle cx="16" cy="16.0002" r="16" fill="white" />
+                        <path
+                            d="M13.2403 9.25466C13.316 9.17401 13.4059 9.11003 13.5049 9.06637C13.6038 9.02272 13.7099 9.00024 13.8171 9.00024C13.9242 9.00024 14.0303 9.02272 14.1293 9.06637C14.2283 9.11003 14.3182 9.17401 14.3938 9.25466L19.8094 15.0117C19.8698 15.0758 19.9178 15.152 19.9505 15.2358C19.9832 15.3196 20 15.4094 20 15.5002C20 15.5909 19.9832 15.6807 19.9505 15.7645C19.9178 15.8483 19.8698 15.9245 19.8094 15.9886L14.3938 21.7456C14.0745 22.0851 13.5596 22.0851 13.2403 21.7456C12.921 21.4062 12.921 20.8589 13.2403 20.5194L17.9586 15.4967L13.2338 10.474C12.921 10.1414 12.921 9.5872 13.2403 9.25466Z"
+                            fill="#032868" />
+                    </svg>
+                </a>
+
+
+
+
+            </div>
+
+            <!-- Hero Content End Here -->
+
+
+            <!-- Hero Image & Hero Cards Start Here -->
+            <div class="position-relative top-0 end-0">
+                <!-- hero section content -->
+                <div class="position-relative ">
+
+                    <div class="position-relative w-fit h-fit">
+                        <img src="/assets/images/hero-img.png" alt="hero image">
+
+                        <a href="" class="position-absolute  top-50 start-50 translate-middle   ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76"
+                                fill="none">
+                                <circle cx="38" cy="38.0005" r="38" fill="#BF0A30" />
+                                <path
+                                    d="M51 36.2684C52.3333 37.0382 52.3333 38.9627 51 39.7325L33 50.1248C31.6667 50.8946 30 49.9324 30 48.3928L30 27.6082C30 26.0686 31.6667 25.1063 33 25.8761L51 36.2684Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- hero cards  -->
+                    <div class="position-relative d-flex gap-4 position-absolute hero-cards">
+
+                        <div class="bg-white p-3 position-relative   w-fit h-fit hero-card">
+                            <p class="text-midblack fs-7 fw-semibold  mb-1">RATED BY</p>
+                            <p class="text-midblack fw-bold  fs-23px mb-0">Super Lawyers</p>
+                            <p class="text-midblack  mb-0 fw-medium fs-14px">Matthew Kaufman</p>
+
+                            <button
+                                class="btn fs-6 py-2 px-4 bg-red text-white w-100 fw-semibold  mt-4">SuperLawyers.com</button>
+                        </div>
+
+                        <div class="bg-white p-3 position-relative  w-fit h-fit hero-card">
+                            <p class="text-midblack fs-7 fw-semibold  mb-1">RATED BY</p>
+                            <p class="text-midblack fw-bold  fs-23px mb-0 ">Super Lawyers</p>
+                            <p class="text-midblack  mb-0 fw-medium fs-14px">Matthew Kaufman</p>
+
+                            <button
+                                class="btn fs-6 py-2 px-4 bg-blue text-white w-100 fw-semibold  d-flex flex-column align-items-center mt-3 text-nowrap ">SELECTED
+                                IN 2022
+                                <span class="fs-8">Thomson Reuters</span></button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Hero Image & Hero Cards End Here -->
+        </div>
+
+    </section>
+    <!-- Hero Section End Here -->
+
+
+    <!-- Image & Text Section Start here -->
+    <section class="position-relative py-3 my-5">
+
+        <!-- shape -->
+        <div class="bg-card-shadow position-absolute z-1  end-0 top-0 h-100 d-none d-lg-block d-flex justify-content-end align-items-center"
+            style="width: 70%;">
+            <img src="/assets/vectors/rights-bg-shape.svg" alt="shape"
+                class="position-absolute top-50 end-0 w-25  translate-middle-y ">
+            <!-- white Card -->
+        </div>
+
+        <div class="container ">
+
+            <div class="d-flex row-cols-2 align-items-center ">
+                <div class="position-relative ">
+                    <img src="./assets/images/protection_rights.png" alt="take action to orotect your work place rights"
+                        class="img-fluid " />
+
+
+                    <div class="overlay-card ">
+
+                        <div class="curve-img-bar"></div>
+                        <p class="img-overlay-text text-uppercase text-white mt-4">TAKE ACTION TO PROTECT YOUR WORK
+                            PLACE
+                            RIGHTS</p>
+
+                    </div>
+
+
+                </div>
+
+                <!-- sidecontent div -->
+                <div class="position-relative  z-3 ">
+                    <!-- heading -->
+                    <div class="me-2">
+                        <div class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22"
+                                fill="none">
+                                <path d="M-0.000854492 0.000488281H8.01863L12.9991 22.0005H-0.000854492V0.000488281Z"
+                                    fill="url(#paint0_linear_0_102)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_0_102" x1="4.00889" y1="0.000488281" x2="4.00889"
+                                        y2="22.0005" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#BF0A30" />
+                                        <stop offset="1" stop-color="#032868" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+
+                            <p class="fw-semibold fs-6 text-uppercase ms-1 mb-0 ">
+                                The Rights of Workers Throughout Southern California
+                            </p>
+                        </div>
+
+                        <!-- main Title -->
+                        <p class="fs-38px fw-semibold  text-uppercase fw-semibold text-gradient">
+                            COMMITTED TO PROTECTING
+                        </p>
+
+                        <!-- main content -->
+
+                        <p class="text-midGray fw-normal fs-6 rights-text mb-5">
+                            Discrimination in the workplace is completely unacceptable. Yet,
+                            countless employees are either wrongfully terminated or forced
+                            to accept demotions due to unethical and unlawful business
+                            practices. My name is
+                            <span class="text-danger fw-bold">Matthew A. Kaufman</span> and I am a
+                            Westlake Village employment law attorney. The loss of a job can
+                            be financially devastating. It can affect a person’s ability to
+                            pay their bills, rent, mortgage and live a good quality of life.
+                            Unfortunately, far too many people struggle in silence and never
+                            take action.
+                        </p>
+
+
+                        <!-- gradient Border Text -->
+                        <div class="gradient-border p-4 fs-imgNtext-aboutus mt-5 me-2">
+                            <p class="mb-0 fw-medium ">Over the years, I have successfully helped men and women in
+                                Westlake Village and
+                                Los Angeles
+                                recover the compensation they deserved, allowing them to move on with their lives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Image & Text Section End here -->
+
+
+    <!-- Card Section Start Here -->
+    <section class="container-fluid mx-auto position-relative my-6 card-section">
+
+        <img src="/assets/images/card_bg.png" alt="practise Area" class="w-fit mx-auto d-flex card-bg-img">
+        <p class="mb-0 text-center  mt-5 position-absolute top-0 w-100 text-white fw-bold font-poppin text-uppercase"
+            style="font-size: 38px;">PRACTICE AREAS
+        </p>
+
+        <!-- Cards -->
+        <div class="row mx-auto gap-5 justify-content-center position-absolute w-100 card-cotainer h-100">
+            <!-- Card 1 -->
+            <div class="bg-white px-3 py-4 rounded-card card-shadow cards">
+                <div class="mb-4 mt-3 ms-1">
+                    <img src="/assets/icons/employment.svg" alt="Employment Class Actions">
+                </div>
+
+                <p class="mb-4 fs-4 mt-5 mx-2 text-black">Employment Class Actions</p>
+
+                <a class="d-flex align-items-center gap-2 mx-2 mt-4 mb-0">
+                    <p class="mb-0 text-blue fw-semibold  " style="font-size: 15px;">More Info</p>
+                    <!-- arrow -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M8.99052 5.42426C9.22483 5.18995 9.22483 4.81005 8.99052 4.57574L5.17214 0.757359C4.93783 0.523045 4.55793 0.523045 4.32361 0.757359C4.0893 0.991674 4.0893 1.37157 4.32361 1.60589L7.71772 5L4.32361 8.39411C4.0893 8.62843 4.0893 9.00833 4.32361 9.24264C4.55793 9.47696 4.93783 9.47696 5.17214 9.24264L8.99052 5.42426ZM0.241577 5.6H8.56625V4.4H0.241577V5.6Z"
+                            fill="#386192" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white px-3 py-4 rounded-card card-shadow" style="width: 255px;height: 295px;">
+                <div class="mb-4 mt-3 ms-1">
+                    <img src="/assets/icons/wrong.svg" alt="Employment Class Actions">
+                </div>
+
+                <p class="mb-4 fs-4 mt-5 mx-2 text-black">Wrongful Termination</p>
+
+                <a class="d-flex align-items-center gap-2 mx-2 mt-4 mb-0">
+                    <p class="mb-0 text-blue fw-semibold  " style="font-size: 15px;">More Info</p>
+                    <!-- arrow -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M8.99052 5.42426C9.22483 5.18995 9.22483 4.81005 8.99052 4.57574L5.17214 0.757359C4.93783 0.523045 4.55793 0.523045 4.32361 0.757359C4.0893 0.991674 4.0893 1.37157 4.32361 1.60589L7.71772 5L4.32361 8.39411C4.0893 8.62843 4.0893 9.00833 4.32361 9.24264C4.55793 9.47696 4.93783 9.47696 5.17214 9.24264L8.99052 5.42426ZM0.241577 5.6H8.56625V4.4H0.241577V5.6Z"
+                            fill="#386192" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white px-3 py-4 rounded-card card-shadow" style="width: 255px;height: 295px;">
+                <div class="mb-4 mt-3 ms-1">
+                    <img src="/assets/icons/wages.svg" alt="Employment Class Actions">
+                </div>
+
+                <p class="mb-4 fs-4 mt-5 mx-2 text-black">Wage & Hour Issues</p>
+
+                <a class="d-flex align-items-center gap-2 mx-2 mt-4 mb-0">
+                    <p class="mb-0 text-blue fw-semibold  " style="font-size: 15px;">More Info</p>
+                    <!-- arrow -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M8.99052 5.42426C9.22483 5.18995 9.22483 4.81005 8.99052 4.57574L5.17214 0.757359C4.93783 0.523045 4.55793 0.523045 4.32361 0.757359C4.0893 0.991674 4.0893 1.37157 4.32361 1.60589L7.71772 5L4.32361 8.39411C4.0893 8.62843 4.0893 9.00833 4.32361 9.24264C4.55793 9.47696 4.93783 9.47696 5.17214 9.24264L8.99052 5.42426ZM0.241577 5.6H8.56625V4.4H0.241577V5.6Z"
+                            fill="#386192" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white px-3 py-4 rounded-card card-shadow" style="width: 255px;height: 295px;">
+                <div class="mb-4 mt-3 ms-1">
+                    <img src="/assets/icons/sex.svg" alt="Employment Class Actions">
+                </div>
+
+                <p class="mb-4 fs-4 mt-5 mx-2 text-black">Sexual Harassment</p>
+
+                <a class="d-flex align-items-center gap-2 mx-2 mt-4 mb-0">
+                    <p class="mb-0 text-blue fw-semibold  " style="font-size: 15px;">More Info</p>
+                    <!-- arrow -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M8.99052 5.42426C9.22483 5.18995 9.22483 4.81005 8.99052 4.57574L5.17214 0.757359C4.93783 0.523045 4.55793 0.523045 4.32361 0.757359C4.0893 0.991674 4.0893 1.37157 4.32361 1.60589L7.71772 5L4.32361 8.39411C4.0893 8.62843 4.0893 9.00833 4.32361 9.24264C4.55793 9.47696 4.93783 9.47696 5.17214 9.24264L8.99052 5.42426ZM0.241577 5.6H8.56625V4.4H0.241577V5.6Z"
+                            fill="#386192" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <!-- Card Section End Here -->
+
+    <!-- Boostrap link -->
+    <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
