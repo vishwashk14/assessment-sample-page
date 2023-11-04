@@ -175,55 +175,8 @@ p {
   line-height: 150%;
   font-weight: 500;
 }
-/* Card Section Styling */
-.card-shadow {
-  box-shadow: 0px 4px 32px 12px rgba(132, 132, 132, 0.12) !important;
-}
 
-.bg-card-shadow {
-  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.06);
-}
-
-.rounded-card {
-  border-radius: 1.063rem !important;
-}
-
-/* Card Section Styling */
-.card-section {
-  left: -1rem !important;
-}
-
-.card-bg-img {
-  border-radius: 1.875rem;
-  width: 92.7% !important;
-}
-
-@media (min-width: 1536px) {
-  .card-bg-img {
-    width: auto !important;
-  }
-}
-
-.card-cotainer {
-  bottom: -12.5rem !important;
-}
-
-.cards {
-  width: 255px;
-  height: 295px;
-}
-
-/* ------ Custom Typograpy ---- */
-.rights-text {
-  line-height: 187.5%;
-  letter-spacing: -0.32px;
-}
-
-.gradient-border {
-  border-width: 4px;
-  border-style: solid;
-  border-image: var(--gradientHeading) 1;
-}
+/* Section styling start here */
 
 /* mavbar styling */
 .nav-logo-bg {
@@ -298,4 +251,54 @@ p {
   border: 2px solid;
   border-radius: 50px !important;
   position: relative;
+}
+
+/* Card Section Styling */
+.card-shadow {
+  box-shadow: 0px 4px 32px 12px rgba(132, 132, 132, 0.12) !important;
+}
+
+.bg-card-shadow {
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.rounded-card {
+  border-radius: 1.063rem !important;
+}
+
+/* Card Section Styling */
+.card-section {
+  left: -1rem !important;
+}
+
+.card-bg-img {
+  border-radius: 1.875rem;
+  width: 92.7% !important;
+}
+
+@media (min-width: 1536px) {
+  .card-bg-img {
+    width: auto !important;
+  }
+}
+
+.card-cotainer {
+  bottom: -12.5rem !important;
+}
+
+.cards {
+  width: 255px;
+  height: 295px;
+}
+
+/* ------ Custom Typograpy ---- */
+.rights-text {
+  line-height: 187.5%;
+  letter-spacing: -0.32px;
+}
+
+.gradient-border {
+  border-width: 4px;
+  border-style: solid;
+  border-image: var(--gradientHeading) 1;
 }
