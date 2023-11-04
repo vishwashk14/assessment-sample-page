@@ -221,9 +221,22 @@ p {
 }
 
 /* ---- hero Content ---- */
+
 .heroText {
   position: relative;
-  left: -0.5rem;
+  left: 3.5vw;
+}
+
+@media (min-width: 1360px) {
+  .heroText {
+    left: -1.8vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .heroText {
+    left: -2.5rem;
+  }
 }
 
 @media (min-width: 1536px) {
